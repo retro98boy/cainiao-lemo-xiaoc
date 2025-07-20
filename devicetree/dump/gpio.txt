@@ -1,0 +1,25 @@
+gpiochip1: GPIOs 410-495, parent: platform/pinctrl@ff634480, periphs-banks:
+ gpio-426 (                    |lan-rst             ) in  hi    
+ gpio-435 (                    |vcc5v-en            ) in  hi    
+ gpio-445 (                    |amlsd               ) out hi    
+ gpio-452 (                    |acc-en              ) out hi    
+ gpio-458 (                    |amlsd               ) in  hi    
+ gpio-462 (                    |usb2-en             ) out hi    
+ gpio-463 (                    |usb3-en             ) out hi    
+ gpio-464 (                    |usb4-en             ) out hi    
+ gpio-465 (                    |ad82584f-reset-pin  ) out hi    
+ gpio-467 (                    |gprs-en             ) out hi    
+ gpio-468 (                    |gprs-rst            ) out lo    
+ gpio-469 (                    |spk-en              ) out lo    
+ gpio-471 (                    |sata_en             ) out hi    
+ gpio-472 (                    |fusb1-en            ) out hi    
+ gpio-473 (                    |fan-en              ) out hi    
+ gpio-482 (                    |sdio_wifi           ) out hi    
+ gpio-483 (                    |sdio_wifi           ) in  hi    
+ gpio-493 (                    |bt_rfkill           ) out hi    
+ gpio-495 (                    |bt_rfkill           ) out hi    
+
+gpiochip0: GPIOs 496-511, parent: platform/pinctrl@ff800014, aobus-banks:
+ gpio-498 (                    |avout_mute          ) out hi    
+ gpio-499 (                    |key                 ) in  hi    
+ gpio-506 (                    |?                   ) out lo
