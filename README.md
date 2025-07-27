@@ -2,6 +2,8 @@
 
 [Armbian](https://github.com/retro98boy/armbian-build)
 
+[Batocera](https://github.com/retro98boy/batocera.linux)
+
 **注意**：针对于开启了安全启动的设备，需要额外操作才能引导这些固件
 
 # 硬件
@@ -22,7 +24,7 @@ eMMC短接点
 >
 > 如何判断自己的设备是否开启了安全启动请参考[这里](https://github.com/retro98boy/onethingcloud-oes-linux?tab=readme-ov-file#%E5%AE%89%E5%85%A8%E5%90%AF%E5%8A%A8)
 >
-> 如果自己的设备开启了安全启动，就只能使用厂商的U-Boot来引导系统，且在玩机前一定要备份mmcblkXbootX和eMMC全盘
+> 如果自己的设备开启了安全启动，就只能使用厂商的U-Boot来引导系统，且在玩机前一定要备份mmcblkNboot0/1和eMMC全盘
 
 # 主线U-Boot
 
@@ -65,4 +67,4 @@ eMMC短接点
 
 参考[此处](https://github.com/retro98boy/cainiao-cniot-core-linux)的**安装系统**章节
 
-**注意**：通过U盘启动时，暂时只能使用USB 3.2 Gen1 Type-A和它旁边的两个Type-A，因为靠近HDMI的那个Type-A的电源在主线U-Boot下未使能
+**注意**：通过U盘启动时，只能使用USB 3.2 Gen1 Type-A和它旁边的两个Type-A，因为靠近HDMI的那个Type-A的电源在主线U-Boot下未使能
